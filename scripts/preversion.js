@@ -6,7 +6,7 @@ function preversion(argv = process.argv) {
 	const fileContent = fs.readFileSync('./config/project.json', 'utf8');
 	const versionRegex = /"project":\s*"(\d+\.\d+\.\d+)"/;
 	const [, versionString] = versionRegex.exec(fileContent);
-
+	console.log(argv);
 	let [major, minor, patch] = versionString.split('.')
 		.map(x => parseInt(x, 10))
 		.map(x => (Number.isNaN(x) ? 0 : x));
