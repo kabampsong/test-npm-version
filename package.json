@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "node scripts/preversion.js && git add ./config/project.json"
+    "version": "node scripts/preversion.js && git add ./config/project.json",
+    "postversion": "git push --follow-tags"
   },
   "repository": {
     "type": "git",
