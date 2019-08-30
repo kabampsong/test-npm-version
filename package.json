@@ -1,0 +1,20 @@
+{
+  "name": "test-npm-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "node scripts/preversion.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabampsong/test-npm-version.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabampsong/test-npm-version/issues"
+  },
+  "homepage": "https://github.com/kabampsong/test-npm-version#readme"
+}

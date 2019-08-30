@@ -1,0 +1,11 @@
+{
+	"game": {
+		"id": "gelato",
+		"title": "Glorious gelato",
+		"title_short": "Gelato"
+	},
+	"version": {
+		"project": "1.0.0",
+		"project_additional": []
+	}
+}
